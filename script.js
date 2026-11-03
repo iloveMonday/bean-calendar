@@ -7,6 +7,8 @@ let show = false;
 btn.addEventListener("click", () => {
     toggle()
 })
+btn.addEventListener("mousedown", invert)
+btn.addEventListener("mouseup", revert)
 
 function toggle(){
     if (show == false){
@@ -19,4 +21,14 @@ function toggle(){
         show = false;
         console.log("false");
     }
+}
+
+function invert(){
+ btn.classList.add("inverted");
+ console.log("down");
+}
+
+function revert(){
+ btn.classList.remove("inverted");
+ console.log("up");
 }

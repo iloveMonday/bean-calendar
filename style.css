@@ -80,6 +80,12 @@ p{
     font-size: 0.8em;
 }
 
+
+.inverted {
+  filter: invert(100%) hue-rotate(180deg);
+}
+
+
 #pay{
     display: flex;
     flex-direction: row;
