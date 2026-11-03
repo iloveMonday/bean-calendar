@@ -105,7 +105,8 @@ p{
 }
 
 .paybutton{
-    max-width: 30vw;
+  width: 30vw;
+    max-width: 250px;
     border-radius: 15px;
     margin: 15px;
 }
