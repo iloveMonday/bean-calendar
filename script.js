@@ -1,11 +1,20 @@
-// let name = document.getElementById("popup");
+console.log("henlo.");
 
-// function togglePopup(show) {
-//     const displayStyle = show ? 'block' : 'none';
-//     document.getElementById('myPopup').style.display = displayStyle;
-//     document.getElementById('blurBg').style.display = displayStyle;
-//   }
+let cal = document.getElementById("popup");
+let btn = document.getElementById("protobutton");
+let show = false;
 
-//   sub.addEventListener("click", () =>{
-// togglePopup(show)
-// });
+btn.addEventListener("click", () => {
+    toggle()
+})
+
+function toggle(){
+    if (show == false){
+        cal.classList.remove("bye");
+        show = true;
+    }
+    else if(show == true){
+        cal.classList.add("bye");
+        show = false;
+    }
+}
