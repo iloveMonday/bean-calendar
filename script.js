@@ -9,6 +9,8 @@ btn.addEventListener("click", () => {
 })
 btn.addEventListener("mousedown", invert)
 btn.addEventListener("mouseup", revert)
+btn.addEventListener("touchstart", invert)
+btn.addEventListener("touchend", revert)
 
 function toggle(){
     if (show == false){
