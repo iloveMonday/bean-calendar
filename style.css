@@ -77,7 +77,8 @@ p{
 }
 
 .flyer-box{
-  max-width: 60vw;
+  width: 60vw;
+    max-width: 515px;
     border: 9px inset #000000;
     border-radius: 16px;
     font-size: 1.8em;
@@ -116,7 +117,8 @@ p{
     /* display: flex;
     flex-direction: column;
     align-items: center; */
-    max-width: 60vw;
+    width: 60vw;
+    max-width: 515px;
     border: 9px inset #000000;
     border-radius: 16px;
     font-size: 1.8em;
@@ -126,10 +128,10 @@ p{
 /* #popup.active{opacity: 0} */
 
 
-#proto-box{
+/* #proto-box{
     width: 100vw;
     display: flex;
-}
+} */
 
 .proto-pic{
     max-width: 100%;
