@@ -76,6 +76,18 @@ p{
     font-size: 1.8em;
 }
 
+.flyer-box{
+  max-width: 60vw;
+    border: 9px inset #000000;
+    border-radius: 16px;
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+
+.flyer{
+  max-width: 100%;
+}
+
 .lil{
     font-size: 0.8em;
 }
