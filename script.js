@@ -12,9 +12,11 @@ function toggle(){
     if (show == false){
         cal.classList.remove("bye");
         show = true;
+        console.log("true");
     }
     else if(show == true){
         cal.classList.add("bye");
         show = false;
+        console.log("false");
     }
 }
